@@ -5,4 +5,8 @@ project (Lexia)
 set (Lexia_VERSION_MAJOR 0)
 set (Lexia_VERSION_MINOR 1)
 
-add_executable (lexia src/main.cpp)
+set(CMAKE_CXX_STANDARD 11)
+
+aux_source_directory (src SRC_DIR)
+
+add_executable (lexia ${SRC_DIR})
