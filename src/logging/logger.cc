@@ -1,5 +1,3 @@
 #include "logger.h"
 
-namespace lexia {
-
-} // namespace lexia
+namespace lexia {} // namespace lexia

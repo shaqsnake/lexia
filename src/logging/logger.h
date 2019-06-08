@@ -16,15 +16,14 @@ enum log_level {
 
 class Logger {
 public:
-    Logger(std::string name = "lexia-logger"): name_(name) {};
+    Logger(std::string name = "lexia-logger") : name_(name){};
     std::string getLoggerName();
+
 private:
     std::string name_;
 };
 
-std::string Logger::getLoggerName() {
-    return name_;
-}
+std::string Logger::getLoggerName() { return name_; }
 
 } // namespace lexia
 
