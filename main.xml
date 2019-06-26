@@ -5,6 +5,7 @@
             path="googletest"
             url="https://github.com/google/googletest.git"
             branch="master"
+            revision="437e1008c97b6bf595fec85da42c6925babd96b2"
             />
         <repository
             path="uriparser"
