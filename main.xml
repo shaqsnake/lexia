@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<workspace>
+    <repositories>
+        <repository
+            path="uriparser"
+            url="https://github.com/shaqsnake/uriparser.git"
+            branch="master"
+            />
+    </repositories>
+</workspace>
