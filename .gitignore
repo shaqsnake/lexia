@@ -1,3 +1,4 @@
+/googletest/
 # Submodules
 /uriparser/
 
@@ -36,6 +37,3 @@ build*/
 *.exe
 *.out
 *.app
-
-# vscode
-.vscode/
