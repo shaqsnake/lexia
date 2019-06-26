@@ -8,6 +8,11 @@ set (Lexia_VERSION_MINOR 1)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
-aux_source_directory (src SRC_DIR)
+enable_testing()
 
-add_executable (lexia ${SRC_DIR})
+add_subdirectory(googletest)
+set_target_properties(gtest gtest_main PROPERTIES 
+    FOLDER Libraries
+)
+
+add_subdirectory(uriparser)

@@ -2,6 +2,11 @@
 <workspace>
     <repositories>
         <repository
+            path="googletest"
+            url="https://github.com/google/googletest.git"
+            branch="master"
+            />
+        <repository
             path="uriparser"
             url="https://github.com/shaqsnake/uriparser.git"
             branch="master"
