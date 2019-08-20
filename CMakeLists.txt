@@ -17,3 +17,4 @@ set_target_properties(gtest gtest_main PROPERTIES
 
 add_subdirectory(uriparser)
 add_subdirectory(message)
+add_subdirectory(utf8)

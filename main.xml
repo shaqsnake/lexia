@@ -17,5 +17,10 @@
             url="https://github.com/shaqsnake/uriparser.git"
             branch="master"
             />
+        <repository
+            path="utf8"
+            url="https://github.com/shaqsnake/utf8.git"
+            branch="master"
+            />
     </repositories>
 </workspace>
